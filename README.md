@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# ETL-DataHub - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.0.0-blue)](https://reactjs.org/) 
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0.0-06B6D4)](https://tailwindcss.com/)
 
-## Available Scripts
+## Descrição do Projeto
 
-In the project directory, you can run:
+O **ETL-DataHub** é resultado de um trabalho de conclusão de curso, com um sistema desenvolvido para automatizar e facilitar a gestão de não conformidades. Este repositório contém o landing page da aplicação, desenvolvido em [React](https://reactjs.org/) e estilizado com [Tailwind CSS](https://tailwindcss.com/).
 
-### `npm start`
+## Funcionalidades do ETL-DataHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interface para gestão de dados
+- Integração com back-end FastAPI
+- Automação de tarefas repetitivas com RPA
+- Visualização clara dos dados gerados pelo pipeline ETL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilização
+- [JavaScript (ES6+)](https://www.javascript.com/) - Linguagem de programação utilizada no desenvolvimento
+- [FastAPI](https://fastapi.tiangolo.com/) (backend)
+- Bancos de Dados SQL e MongoDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Rodar o Projeto
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em seu ambiente:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/en/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Passos para Executar o Projeto
 
-### `npm run eject`
+1. **Clone o repositório**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Clone o projeto para sua máquina local usando o seguinte comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/GustavoMMello01/ETL-DataHUB-Landing-Page
+   ``` 
+2. **Acesse a pasta do projeto**
+    ```bash
+   cd etl-datahub-frontend
+    ```
+3. **Instale as dependências**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Instale as dependências do projeto com o comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+   ou
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn install
+   ```
+4. **Execute o projeto**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Para rodar o projeto, execute o comando:
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ou
 
-### Analyzing the Bundle Size
+   ```bash
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   O projeto estará disponível em `http://localhost:3000`.
+5. **Build do projeto**
 
-### Making a Progressive Web App
+   Para gerar uma versão de produção do projeto, execute o comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   npm run build
+   ```
 
-### Advanced Configuration
+   ou
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   yarn build
+   ```
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Os arquivos gerados estarão disponíveis na pasta `build`.
