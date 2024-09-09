@@ -86,4 +86,4 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
    yarn build
    ```
 
-   Os arquivos gerados estarão disponíveis na pasta `build`.
+   Os arquivos gerados estarão disponíveis na pasta `build`. 
